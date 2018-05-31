@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068F31FD3ACBEDD2D53775FFC0DDE1A8 /* LinearProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 364CEACF0A752640F012681E9814CE34 /* LinearProgressBar-dummy.m */; };
+		0B2CCF189AB2D85A5FC34B1DDB84B753 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68D3F5B38FA5525822AD049B9139728 /* Reachability.swift */; };
+		1C16243D4F5E17A8403D37B2402DF7C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */; };
+		1F0FC72489EA1C17C718801A9D01942E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		234246AE575B62A7D39996D2C67DBFE2 /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC33217F0E28B52A4F637FA3B186FF /* LinearProgressBar.swift */; };
+		35431DA1EF1F6D830FE08F1AFAE26BA4 /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258CFFF08D3C1575C1AFF6AFB0CB975 /* UICircularProgressRingLayer.swift */; };
+		3CA9ACF404FFF3D116A4720E167CACC6 /* UICircularProgressRingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1BFD03DCAB354D015025471A081A98 /* UICircularProgressRingStyle.swift */; };
+		3CAAD7B25F8C715CECEDA7713DACC223 /* UICircularProgressRing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFF400CF187810A2A3E364F0C18E95C /* UICircularProgressRing-dummy.m */; };
+		6E139FC6B7876C8C381C8BAD01A8CD14 /* UICircularProgressRing.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F9DCAFAC18FE8725306A3D7077CDCB /* UICircularProgressRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C962330F7D8B18E926E05FC25DDE2D /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6AB2A7692491DCCE15AF123BF0ACB0 /* ReachabilitySwift-dummy.m */; };
+		7CACD2867CEFC71F090B047BFF6A146E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		7DF8E1C8684E1E5B1DB67810123C789E /* LinearProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 814C5750FA3DA15C0AD6C8CDEBEC6502 /* LinearProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AC0755F3A0F378109F1A86ACDFAEE85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		AAE56E9E88EBE244DEEAE97B705DB878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */; };
+		BFD849EB454B78FF0178A7F6D8AD0089 /* Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61C5506E1D447A153E068E701E3DD4 /* Clamp.swift */; };
+		D23F4AEF68253A4FEABA0BB205C1BA0B /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1E23DC759241AEAA317458E05035A7 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D528426DEA27C705C3C6DF8CD5E4D071 /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5500FD1FF8E9779BCD067FCBF2BA0EF /* UICircularProgressRingDelegate.swift */; };
+		D687BB87D40E74A067A2916D11BBB145 /* Pods-ADImageCatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA442D020A67F3ED1E181B8E9106C9F /* Pods-ADImageCatch-dummy.m */; };
+		D87A659B4AC128EE3EEF3DCD97C0B655 /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021388625FAB6B795FB50E9006D250C /* UICircularProgressRingView.swift */; };
+		E8CEB9FCBCFED8ACC33F68AC49C17EEA /* UICircularProgressRing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6A5779FDAEC1089B36463A3E675F36 /* UICircularProgressRing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F985FE686353DD39EC6712947451CC2A /* UICircularProgressRingGradientPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786E9867610835560F78076843BBCB27 /* UICircularProgressRingGradientPosition.swift */; };
+		FAAAD9EA350A1FB0C00423E8BEB79E8E /* Pods-ADImageCatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6795F127548BC852417211EB7F5C1F8 /* Pods-ADImageCatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5807FBF171027A1405706FC53F2E54BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454C1CAA7982B517836D3DA0E13761F3;
+			remoteInfo = UICircularProgressRing;
+		};
+		6396A7AEC4E83E7A6A1C4A35E6F0B044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D091181CA5426F3BE9E281EC842BCAF0;
+			remoteInfo = ReachabilitySwift;
+		};
+		702ED9B417FBF9A7FDA4E01ECC39853F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D093377B6951AC5507B8F910B581132;
+			remoteInfo = LinearProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D3B41625B363AC377DBB0F1760A879 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04122D577DC371188A214F7779EEC30E /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		0B6AB2A7692491DCCE15AF123BF0ACB0 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		0E3DF224AA7846160E2F7B6FFF82A246 /* Pods-ADImageCatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADImageCatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CFF400CF187810A2A3E364F0C18E95C /* UICircularProgressRing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircularProgressRing-dummy.m"; sourceTree = "<group>"; };
+		1F1E23DC759241AEAA317458E05035A7 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		20BB8A267ED32C94FF11ECD53109F459 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F9DCAFAC18FE8725306A3D7077CDCB /* UICircularProgressRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = src/UICircularProgressRing/UICircularProgressRing.h; sourceTree = "<group>"; };
+		222CC64304419AF07AFE993298BBEC50 /* UICircularProgressRing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircularProgressRing.xcconfig; sourceTree = "<group>"; };
+		2E6A5779FDAEC1089B36463A3E675F36 /* UICircularProgressRing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-umbrella.h"; sourceTree = "<group>"; };
+		31E6A1DE8F642004531C5F695DF2AD79 /* LinearProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LinearProgressBar.framework; path = LinearProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364CEACF0A752640F012681E9814CE34 /* LinearProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LinearProgressBar-dummy.m"; sourceTree = "<group>"; };
+		40001084F6D0FC705AFDB2CEDF1F9C2C /* Pods-ADImageCatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADImageCatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		478E4B701E6215163A42B20219284C6D /* LinearProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinearProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		4BD1597B735B60C0374251BCB217D105 /* LinearProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LinearProgressBar.xcconfig; sourceTree = "<group>"; };
+		4FE729C8D29A90C48FF06E7A3FAF450E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5021388625FAB6B795FB50E9006D250C /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingView.swift; path = src/UICircularProgressRing/UICircularProgressRingView.swift; sourceTree = "<group>"; };
+		5BA442D020A67F3ED1E181B8E9106C9F /* Pods-ADImageCatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADImageCatch-dummy.m"; sourceTree = "<group>"; };
+		6258CFFF08D3C1575C1AFF6AFB0CB975 /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = src/UICircularProgressRing/UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
+		67FF68B2E372093F3AA121F0C203FA50 /* UICircularProgressRing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-prefix.pch"; sourceTree = "<group>"; };
+		687374A06420D41D254A1C22CC96A8C4 /* UICircularProgressRing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICircularProgressRing.modulemap; sourceTree = "<group>"; };
+		6F61CA0A9E96FC212717D66E0C1246A3 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICircularProgressRing.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		786E9867610835560F78076843BBCB27 /* UICircularProgressRingGradientPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingGradientPosition.swift; path = src/UICircularProgressRing/UICircularProgressRingGradientPosition.swift; sourceTree = "<group>"; };
+		7EB6FDBEAA32FC6A2EE08508A648A2E3 /* Pods_ADImageCatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADImageCatch.framework; path = "Pods-ADImageCatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1BFD03DCAB354D015025471A081A98 /* UICircularProgressRingStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingStyle.swift; path = src/UICircularProgressRing/UICircularProgressRingStyle.swift; sourceTree = "<group>"; };
+		814C5750FA3DA15C0AD6C8CDEBEC6502 /* LinearProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LinearProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		903C30F811A6AD2A3B69A87E0AAFC24E /* Pods-ADImageCatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADImageCatch.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98604BA9978740C68E14D44FFB11EC35 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		AFC335DDD2C02CA84AE4E3190525304F /* LinearProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LinearProgressBar.modulemap; sourceTree = "<group>"; };
+		B6795F127548BC852417211EB7F5C1F8 /* Pods-ADImageCatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADImageCatch-umbrella.h"; sourceTree = "<group>"; };
+		B768D8BC74F9C6518A8511091119F2D6 /* Pods-ADImageCatch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADImageCatch-resources.sh"; sourceTree = "<group>"; };
+		C70EF6A113B36AA25006D73C1FC8C084 /* Pods-ADImageCatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADImageCatch.modulemap"; sourceTree = "<group>"; };
+		C7E9475799B2C6714B1D67B5BE636E70 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		C9FC33217F0E28B52A4F637FA3B186FF /* LinearProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearProgressBar.swift; path = LinearProgressBar/LinearProgressBar.swift; sourceTree = "<group>"; };
+		D5500FD1FF8E9779BCD067FCBF2BA0EF /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = src/UICircularProgressRing/UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
+		D5D965BA17A5BC54ACD0DCC95AFA2CD3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68D3F5B38FA5525822AD049B9139728 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		DEE3B3A3D2B3DDE4A44DFEAC44AA93C4 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF61C5506E1D447A153E068E701E3DD4 /* Clamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clamp.swift; path = LinearProgressBar/Clamp.swift; sourceTree = "<group>"; };
+		ECE279F88A1A48B7539844D2988677A3 /* Pods-ADImageCatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADImageCatch-frameworks.sh"; sourceTree = "<group>"; };
+		F07B03A2660AC93C6093DE3C5DE95F47 /* Pods-ADImageCatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADImageCatch.debug.xcconfig"; sourceTree = "<group>"; };
+		F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074EE634228B6A438EFDE44240030A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC0755F3A0F378109F1A86ACDFAEE85 /* Foundation.framework in Frameworks */,
+				1C16243D4F5E17A8403D37B2402DF7C0 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1312537CF2438649160AD27896905086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE56E9E88EBE244DEEAE97B705DB878 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC7F10CBF2827BAC2D9EA8D26A0F85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0FC72489EA1C17C718801A9D01942E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9DA1F985E43C465033CC57114028D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CACD2867CEFC71F090B047BFF6A146E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B77BE974B0F395C5F49FACD4C0030C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20BB8A267ED32C94FF11ECD53109F459 /* Info.plist */,
+				C7E9475799B2C6714B1D67B5BE636E70 /* ReachabilitySwift.modulemap */,
+				04122D577DC371188A214F7779EEC30E /* ReachabilitySwift.xcconfig */,
+				0B6AB2A7692491DCCE15AF123BF0ACB0 /* ReachabilitySwift-dummy.m */,
+				98604BA9978740C68E14D44FFB11EC35 /* ReachabilitySwift-prefix.pch */,
+				1F1E23DC759241AEAA317458E05035A7 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		2A83FE51E324C031BF9CD049723D5D0D /* UICircularProgressRing */ = {
+			isa = PBXGroup;
+			children = (
+				20F9DCAFAC18FE8725306A3D7077CDCB /* UICircularProgressRing.h */,
+				D5500FD1FF8E9779BCD067FCBF2BA0EF /* UICircularProgressRingDelegate.swift */,
+				786E9867610835560F78076843BBCB27 /* UICircularProgressRingGradientPosition.swift */,
+				6258CFFF08D3C1575C1AFF6AFB0CB975 /* UICircularProgressRingLayer.swift */,
+				7F1BFD03DCAB354D015025471A081A98 /* UICircularProgressRingStyle.swift */,
+				5021388625FAB6B795FB50E9006D250C /* UICircularProgressRingView.swift */,
+				AC60E4A98A55EBE93AE275F3C5ECDC3F /* Support Files */,
+			);
+			name = UICircularProgressRing;
+			path = UICircularProgressRing;
+			sourceTree = "<group>";
+		};
+		363A95EEB8597ADB2F49F0A5A3949A3A /* LinearProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				DF61C5506E1D447A153E068E701E3DD4 /* Clamp.swift */,
+				C9FC33217F0E28B52A4F637FA3B186FF /* LinearProgressBar.swift */,
+				716B0664BBC9D562221A6615D27943E2 /* Support Files */,
+			);
+			name = LinearProgressBar;
+			path = LinearProgressBar;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58F46CDCB1C77E96A36171CD0D8C8C6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				363A95EEB8597ADB2F49F0A5A3949A3A /* LinearProgressBar */,
+				E9D7015E23D1732B2C743C26D5A3948F /* ReachabilitySwift */,
+				2A83FE51E324C031BF9CD049723D5D0D /* UICircularProgressRing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		716B0664BBC9D562221A6615D27943E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00D3B41625B363AC377DBB0F1760A879 /* Info.plist */,
+				AFC335DDD2C02CA84AE4E3190525304F /* LinearProgressBar.modulemap */,
+				4BD1597B735B60C0374251BCB217D105 /* LinearProgressBar.xcconfig */,
+				364CEACF0A752640F012681E9814CE34 /* LinearProgressBar-dummy.m */,
+				478E4B701E6215163A42B20219284C6D /* LinearProgressBar-prefix.pch */,
+				814C5750FA3DA15C0AD6C8CDEBEC6502 /* LinearProgressBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LinearProgressBar";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				58F46CDCB1C77E96A36171CD0D8C8C6C /* Pods */,
+				E9F4D4F743604E77245EB2E1874171B6 /* Products */,
+				8961E5F294F8AAEA359B223BB30D3FFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8961E5F294F8AAEA359B223BB30D3FFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A78B052848977FD6F45C45D12603FB /* Pods-ADImageCatch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91A78B052848977FD6F45C45D12603FB /* Pods-ADImageCatch */ = {
+			isa = PBXGroup;
+			children = (
+				4FE729C8D29A90C48FF06E7A3FAF450E /* Info.plist */,
+				C70EF6A113B36AA25006D73C1FC8C084 /* Pods-ADImageCatch.modulemap */,
+				40001084F6D0FC705AFDB2CEDF1F9C2C /* Pods-ADImageCatch-acknowledgements.markdown */,
+				0E3DF224AA7846160E2F7B6FFF82A246 /* Pods-ADImageCatch-acknowledgements.plist */,
+				5BA442D020A67F3ED1E181B8E9106C9F /* Pods-ADImageCatch-dummy.m */,
+				ECE279F88A1A48B7539844D2988677A3 /* Pods-ADImageCatch-frameworks.sh */,
+				B768D8BC74F9C6518A8511091119F2D6 /* Pods-ADImageCatch-resources.sh */,
+				B6795F127548BC852417211EB7F5C1F8 /* Pods-ADImageCatch-umbrella.h */,
+				F07B03A2660AC93C6093DE3C5DE95F47 /* Pods-ADImageCatch.debug.xcconfig */,
+				903C30F811A6AD2A3B69A87E0AAFC24E /* Pods-ADImageCatch.release.xcconfig */,
+			);
+			name = "Pods-ADImageCatch";
+			path = "Target Support Files/Pods-ADImageCatch";
+			sourceTree = "<group>";
+		};
+		AC60E4A98A55EBE93AE275F3C5ECDC3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5D965BA17A5BC54ACD0DCC95AFA2CD3 /* Info.plist */,
+				687374A06420D41D254A1C22CC96A8C4 /* UICircularProgressRing.modulemap */,
+				222CC64304419AF07AFE993298BBEC50 /* UICircularProgressRing.xcconfig */,
+				1CFF400CF187810A2A3E364F0C18E95C /* UICircularProgressRing-dummy.m */,
+				67FF68B2E372093F3AA121F0C203FA50 /* UICircularProgressRing-prefix.pch */,
+				2E6A5779FDAEC1089B36463A3E675F36 /* UICircularProgressRing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICircularProgressRing";
+			sourceTree = "<group>";
+		};
+		E7E283C74B7E79D37D9BAAFF277942F5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97D7E984AA2ED06FC886024282B47207 /* Foundation.framework */,
+				F2AF9EC704AAD470CAC8FE0D05A5430B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9D7015E23D1732B2C743C26D5A3948F /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				D68D3F5B38FA5525822AD049B9139728 /* Reachability.swift */,
+				23B77BE974B0F395C5F49FACD4C0030C /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		E9F4D4F743604E77245EB2E1874171B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E6A1DE8F642004531C5F695DF2AD79 /* LinearProgressBar.framework */,
+				7EB6FDBEAA32FC6A2EE08508A648A2E3 /* Pods_ADImageCatch.framework */,
+				DEE3B3A3D2B3DDE4A44DFEAC44AA93C4 /* Reachability.framework */,
+				6F61CA0A9E96FC212717D66E0C1246A3 /* UICircularProgressRing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E08DC53175E20DA3125350DE611E3B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23F4AEF68253A4FEABA0BB205C1BA0B /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C443C1F6B08AC415CC3FC701262BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF8E1C8684E1E5B1DB67810123C789E /* LinearProgressBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60D29F8A767C0622FDB2A15C391ECC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAAD9EA350A1FB0C00423E8BEB79E8E /* Pods-ADImageCatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3B654503F7A21983C8D2F100F1130C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CEB9FCBCFED8ACC33F68AC49C17EEA /* UICircularProgressRing-umbrella.h in Headers */,
+				6E139FC6B7876C8C381C8BAD01A8CD14 /* UICircularProgressRing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FE31F90F9A5BEAEE7391A25D1B13F12 /* Pods-ADImageCatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765A28A6EB4777FFA994E3EEE343A8F8 /* Build configuration list for PBXNativeTarget "Pods-ADImageCatch" */;
+			buildPhases = (
+				39C8A1795F595AD39F53634B653CBE76 /* Sources */,
+				DCC7F10CBF2827BAC2D9EA8D26A0F85D /* Frameworks */,
+				E60D29F8A767C0622FDB2A15C391ECC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB5ABCD6D80002970319E538D202A07 /* PBXTargetDependency */,
+				0AAABEEAD9372F131D7CD548DE975126 /* PBXTargetDependency */,
+				E398ACB1963F2C5DE7B43BB2910A67D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ADImageCatch";
+			productName = "Pods-ADImageCatch";
+			productReference = 7EB6FDBEAA32FC6A2EE08508A648A2E3 /* Pods_ADImageCatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		454C1CAA7982B517836D3DA0E13761F3 /* UICircularProgressRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD66B9F561C58E815E41557C713360DB /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */;
+			buildPhases = (
+				EA4EC8B75788E7C846D634846C0E22E4 /* Sources */,
+				EF9DA1F985E43C465033CC57114028D0 /* Frameworks */,
+				ED3B654503F7A21983C8D2F100F1130C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICircularProgressRing;
+			productName = UICircularProgressRing;
+			productReference = 6F61CA0A9E96FC212717D66E0C1246A3 /* UICircularProgressRing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D093377B6951AC5507B8F910B581132 /* LinearProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19332EB75079AE1F68FBAD2D59E403E4 /* Build configuration list for PBXNativeTarget "LinearProgressBar" */;
+			buildPhases = (
+				CFD4CD567CB3A3A75F5E43BABF814CD2 /* Sources */,
+				1312537CF2438649160AD27896905086 /* Frameworks */,
+				CD6C443C1F6B08AC415CC3FC701262BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearProgressBar;
+			productName = LinearProgressBar;
+			productReference = 31E6A1DE8F642004531C5F695DF2AD79 /* LinearProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D091181CA5426F3BE9E281EC842BCAF0 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DDF5B474208F7C4B4CFB146FF0C6D5 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				D424B4728953A62BB3DBDA9AE517C542 /* Sources */,
+				074EE634228B6A438EFDE44240030A28 /* Frameworks */,
+				3E08DC53175E20DA3125350DE611E3B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = DEE3B3A3D2B3DDE4A44DFEAC44AA93C4 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E9F4D4F743604E77245EB2E1874171B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D093377B6951AC5507B8F910B581132 /* LinearProgressBar */,
+				0FE31F90F9A5BEAEE7391A25D1B13F12 /* Pods-ADImageCatch */,
+				D091181CA5426F3BE9E281EC842BCAF0 /* ReachabilitySwift */,
+				454C1CAA7982B517836D3DA0E13761F3 /* UICircularProgressRing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C8A1795F595AD39F53634B653CBE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D687BB87D40E74A067A2916D11BBB145 /* Pods-ADImageCatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD4CD567CB3A3A75F5E43BABF814CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD849EB454B78FF0178A7F6D8AD0089 /* Clamp.swift in Sources */,
+				068F31FD3ACBEDD2D53775FFC0DDE1A8 /* LinearProgressBar-dummy.m in Sources */,
+				234246AE575B62A7D39996D2C67DBFE2 /* LinearProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D424B4728953A62BB3DBDA9AE517C542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2CCF189AB2D85A5FC34B1DDB84B753 /* Reachability.swift in Sources */,
+				76C962330F7D8B18E926E05FC25DDE2D /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4EC8B75788E7C846D634846C0E22E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAAD7B25F8C715CECEDA7713DACC223 /* UICircularProgressRing-dummy.m in Sources */,
+				D528426DEA27C705C3C6DF8CD5E4D071 /* UICircularProgressRingDelegate.swift in Sources */,
+				F985FE686353DD39EC6712947451CC2A /* UICircularProgressRingGradientPosition.swift in Sources */,
+				35431DA1EF1F6D830FE08F1AFAE26BA4 /* UICircularProgressRingLayer.swift in Sources */,
+				3CA9ACF404FFF3D116A4720E167CACC6 /* UICircularProgressRingStyle.swift in Sources */,
+				D87A659B4AC128EE3EEF3DCD97C0B655 /* UICircularProgressRingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AAABEEAD9372F131D7CD548DE975126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = D091181CA5426F3BE9E281EC842BCAF0 /* ReachabilitySwift */;
+			targetProxy = 6396A7AEC4E83E7A6A1C4A35E6F0B044 /* PBXContainerItemProxy */;
+		};
+		7BB5ABCD6D80002970319E538D202A07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LinearProgressBar;
+			target = 6D093377B6951AC5507B8F910B581132 /* LinearProgressBar */;
+			targetProxy = 702ED9B417FBF9A7FDA4E01ECC39853F /* PBXContainerItemProxy */;
+		};
+		E398ACB1963F2C5DE7B43BB2910A67D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICircularProgressRing;
+			target = 454C1CAA7982B517836D3DA0E13761F3 /* UICircularProgressRing */;
+			targetProxy = 5807FBF171027A1405706FC53F2E54BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14110DACE8F5E49B44ECE9DC20016E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD1597B735B60C0374251BCB217D105 /* LinearProgressBar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LinearProgressBar/LinearProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinearProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinearProgressBar/LinearProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = LinearProgressBar;
+				PRODUCT_NAME = LinearProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F5F9AC711FBF1B6CE53AC68726DDF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07B03A2660AC93C6093DE3C5DE95F47 /* Pods-ADImageCatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADImageCatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADImageCatch/Pods-ADImageCatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		425087FE6565136C1350F7C9188F8E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222CC64304419AF07AFE993298BBEC50 /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				PRODUCT_MODULE_NAME = UICircularProgressRing;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7F8FDA16B0551723FAC8C8CB593E9A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04122D577DC371188A214F7779EEC30E /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A245C598E2DEEF3AA2B263E2391C9AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903C30F811A6AD2A3B69A87E0AAFC24E /* Pods-ADImageCatch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADImageCatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADImageCatch/Pods-ADImageCatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7C93CFE827E2532E49C8E4652B762C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04122D577DC371188A214F7779EEC30E /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA2B8FB31590C3114E0262C47F7691E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222CC64304419AF07AFE993298BBEC50 /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				PRODUCT_MODULE_NAME = UICircularProgressRing;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6FF921C7AC1B2D3C5BF754FFDD39B0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD1597B735B60C0374251BCB217D105 /* LinearProgressBar.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LinearProgressBar/LinearProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LinearProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LinearProgressBar/LinearProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = LinearProgressBar;
+				PRODUCT_NAME = LinearProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19332EB75079AE1F68FBAD2D59E403E4 /* Build configuration list for PBXNativeTarget "LinearProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14110DACE8F5E49B44ECE9DC20016E75 /* Debug */,
+				F6FF921C7AC1B2D3C5BF754FFDD39B0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DDF5B474208F7C4B4CFB146FF0C6D5 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8FDA16B0551723FAC8C8CB593E9A0C /* Debug */,
+				A7C93CFE827E2532E49C8E4652B762C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		765A28A6EB4777FFA994E3EEE343A8F8 /* Build configuration list for PBXNativeTarget "Pods-ADImageCatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5F9AC711FBF1B6CE53AC68726DDF19 /* Debug */,
+				A245C598E2DEEF3AA2B263E2391C9AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD66B9F561C58E815E41557C713360DB /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2B8FB31590C3114E0262C47F7691E6 /* Debug */,
+				425087FE6565136C1350F7C9188F8E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

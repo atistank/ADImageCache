@@ -1,0 +1,24 @@
+PODS:
+  - LinearProgressBar (1.0.1)
+  - ReachabilitySwift (4.1.0)
+  - UICircularProgressRing (2.0.0)
+
+DEPENDENCIES:
+  - LinearProgressBar
+  - ReachabilitySwift
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - LinearProgressBar
+    - ReachabilitySwift
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  LinearProgressBar: f6a74dbabed229dbb1a7978089e2e4317a3a0ee0
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  UICircularProgressRing: f41663e98c0f40b4794461a4209a67569ea2cc28
+
+PODFILE CHECKSUM: a5249718d675351cd0c213ab9853f47c761c6e32
+
+COCOAPODS: 1.5.0
